@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  /* variables */
+  --bg-main: #0A0C1C;
+  --bg-card: #1B1937;
+  --main-text: #FFFFFF;
+  --accent: #AB5CDB;
+  /* font size for rem */
+  font-size: 15px;
+}
+
+/* Common Styles */
+* {
+  font-family: 'Inter', Verdana, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--main-text);
+}
+
+body {
+  background-color: var(--bg-main);
+}
+
+main {
+  background-color: var(--bg-card);
+}
+
+h1, h3, .accent {
+  font-weight: 700;
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.insights {
+  font-weight: 400;
+
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+/* Mobile View */
+@media screen and (max-width: 768px) {
+  main {
+    margin: 88px 24px;
+    padding: 40px 31px 32px 31px;
+  }
+  #info{
+    text-align: center;
+  }
+  h1, .accent {
+    /* position: absolute;
+    width: 264px;
+    height: 96px;
+    left: 55.5px;
+    top: 368px; */
+
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .insights {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+/* Tablet View */
+@media  screen and (min-width:767px) and (max-width:1441px){
+  
+}
+
+/* Desktop */
+@media  screen and (min-width: 1440px){
+  
+}
+
+
+/* Bitmap */
+
+/* position: absolute;
+width: 519.59px;
+height: 346px;
+left: calc(50% - 519.59px/2 + 30.59px);
+top: calc(50% - 346px/2 + 36.43px);
+
+background: url(Image.png);
+mix-blend-mode: multiply;
+opacity: 0.75; */

@@ -40,3 +40,6 @@ font-family: 'Inter', sans-serif;
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 font-family: 'Lexend Deca', sans-serif;
+
+## Resources
+https://www.figma.com/file/l97fE7SCkrvhEQEkAhr1AT/stats-preview-card-component
