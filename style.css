@@ -56,6 +56,9 @@ h1, h3, .accent {
   mix-blend-mode: normal;
   opacity: 0.6;
 }
+.uppercase {
+  text-transform: uppercase;
+}
 
 /* Mobile View */
 @media screen and (max-width: 768px) {
