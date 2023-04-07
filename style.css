@@ -88,9 +88,7 @@ h1, h3, .accent {
     text-align: center;
     padding: 40px 31px 32px 31px;
   }
-  h1 {
-    /* margin-top: 40px; */
-  }
+  
   h1, .accent {
     /* position: absolute;
     width: 264px;
